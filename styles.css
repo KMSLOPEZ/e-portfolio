@@ -213,16 +213,16 @@ body {
 }
 
 .btn-primary {
-    background: var(--dark-gray);
+    background: transparent;
     color: var(--white);
-    border-color: var(--dark-gray);
+    border: 2px solid var(--white);
 }
 
 .btn-primary:hover {
-    background: var(--accent);
+    background: rgba(255, 255, 255, 0.1);
     color: var(--white);
-    border-color: var(--accent);
-    box-shadow: 0 8px 24px rgba(113, 113, 122, 0.4);
+    border-color: var(--white);
+    transform: translateY(-3px);
 }
 
 /* ==================== Sections ==================== */
