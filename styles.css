@@ -1182,6 +1182,33 @@ section.alt {
     color: var(--secondary);
 }
 
+.view-repo-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: var(--white);
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: var(--transition);
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+}
+
+.view-repo-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+    gap: 0.8rem;
+}
+
+.view-repo-btn i {
+    font-size: 1rem;
+}
+
 /* ==================== Skills Section ==================== */
 .skills {
     padding: 120px 20px;
