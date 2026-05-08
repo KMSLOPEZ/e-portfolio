@@ -1,22 +1,22 @@
 /* ==================== Minimalist Portfolio - Root Variables ==================== */
 :root {
     --white: #ffffff;
-    --light-gray: #e8e8e8;
-    --medium-gray: #d0d0d0;
-    --dark-gray: #2a2a2a;
-    --darker-gray: #1a1a1a;
+    --light-gray: #f5f5f5;
+    --medium-gray: #d4d4d8;
+    --dark-gray: #52525b;
+    --darker-gray: #27272a;
     --black: #000000;
     --text: #ffffff;
-    --text-light: #e0e7ff;
-    --text-secondary: #c7d2fe;
-    --border: #4c1d95;
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --primary: #3b82f6;
-    --secondary: #8b5cf6;
-    --accent: #ec4899;
-    --surface: rgba(30, 58, 138, 0.6);
-    --surface-light: rgba(67, 56, 202, 0.8);
+    --text-light: #e4e4e7;
+    --text-secondary: #a1a1aa;
+    --border: #52525b;
+    --bg-primary: #09090b;
+    --bg-secondary: #18181b;
+    --primary: #ffffff;
+    --secondary: #d4d4d8;
+    --accent: #71717a;
+    --surface: rgba(39, 39, 42, 0.6);
+    --surface-light: rgba(82, 82, 91, 0.8);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
